@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="page">
+        <div class="logo">
+          <img src="./sk-logo.jpg" alt="" />
+        </div>
+
+        <div class="forms">
+          <form>
+            <div class="input">
+              <input type="text" placeholder="Gmail, username,or Phone number "/>
+              <input type="password" placeholder="Password" minlength="8" maxlength="16"  id="myInput"  />
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" onclick="myFunction()" >Show password
+            </div>
+
+            <div class="btn">
+              <button type="submit">Log in</button>
+              <button type="submit">Sign up</button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

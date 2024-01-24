@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary: azure ;
+    --secondary:  rgba(24, 21, 21, 0.577);
+}
+.container{
+    background-color:var(--primary);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.page{
+    height: 80svh;
+    width: 80svh;
+    background-color: var(--secondary);
+    padding: 0px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(47, 41, 41, 0.409);
+}
+.logo{
+    text-align: center;
+    width: 100%;
+    height: 30%;
+}
+.logo img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+.logo img:hover{
+    box-shadow: 2px 2px 2px 2px rgba(47, 41, 41, 0.409);
+
+}
+form{
+    height: 250px;
+    /* background-color: beige; */
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 35%;
+    width: 100%;
+    align-items: center;
+    /* background-color: antiquewhite; */
+
+}
+.input input{
+    width: 55vh;
+    height: 7vh;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.btn button{
+    height: 5vh;
+    width: 20vh;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: blue;
+}
+.checkbox{
+display: flex;
+justify-content: flex-end;
+font-size: 18px;
+color: rgb(224, 215, 215);
+width: 74%;
+cursor: pointer;
+}
